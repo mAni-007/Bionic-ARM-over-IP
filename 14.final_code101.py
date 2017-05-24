@@ -13,7 +13,7 @@ while True :
     lower_blue = np.array([90,20,20])
     upper_blue = np.array([150,255,255])
 
-    lower_red = np.array([150,150,0])
+    lower_red = np.array([150,150,0])   #akash is chutiya
     upper_red = np.array([180,255,255])
 
     mask1 = cv2.inRange(hsv, lower_green, upper_green)
